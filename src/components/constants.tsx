@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Project, ProjectCategory, ProjectStatus } from './types';
+import { Project, ProjectCategory, ProjectStatus } from '../types';
 import { 
   Rocket, 
   Satellite, 

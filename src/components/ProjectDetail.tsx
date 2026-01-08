@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Project, Milestone, ProjectStatus } from '../types';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts';
@@ -15,7 +14,7 @@ import {
   DollarSign
 } from 'lucide-react';
 import { getProjectHealthInsight } from '../geminiService';
-import { STATUS_COLORS } from '../constants';
+import { STATUS_COLORS } from './constants';
 
 interface ProjectDetailProps {
   project: Project;
